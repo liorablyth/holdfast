@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Holdfast privacy policy</title>
+    <style>
+      :root { color-scheme: light; }
+      body {
+        margin: 0;
+        background: #efe6d6;
+        color: #1d1a16;
+        font: 16px/1.55 "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+      main { max-width: 680px; margin: 0 auto; padding: 48px 20px 72px; }
+      h1 {
+        font-family: Palatino, "Palatino Linotype", Georgia, serif;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-size: 18px;
+        margin: 0 0 8px;
+      }
+      h2 { font-size: 18px; margin: 28px 0 8px; }
+      p, li { color: #2a261f; }
+      .date { color: #4f493f; }
+      a { color: #1e5c40; }
+      code { font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; font-size: 0.92em; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Holdfast</h1>
+      <p class="date">Privacy policy · 23 October 2026</p>
+      <p>Holdfast saves browser tabs on your computer. Your saved tabs never get lost to a silent overwrite, and they are not uploaded as part of saving, restoring, or searching.</p>
+
+      <h2>What stays on this device</h2>
+      <p>Saves, the trash, settings, and a cached license record live in the browser’s local extension storage. A save can include the page title, address, pinned state, favicon address, tab group name and color, and window size and position. Holdfast does not have an account, and it does not sync that library to a server.</p>
+      <p>The library screen does not fetch favicon images. Addresses are shown as text.</p>
+      <p>Uninstalling the extension removes this local storage. Export a backup file first if you want a copy that survives uninstall. A backup is a JSON file written to your computer.</p>
+
+      <h2>The only network request</h2>
+      <p>If you enter a Pro license key, Holdfast asks the payment provider whether that key is active. That request goes to <code>live.dodopayments.com</code>. It sends the key, a short device name (“Holdfast”), and, after activation, the activation id. It does not send page titles, addresses, or tab groups. It does not send a secret API key.</p>
+      <p>The request happens when you activate a key, and again about once a week while a key is stored. If the provider says the key is disabled, expired, or otherwise not valid, Pro turns off. A yearly subscription does that when the subscription is cancelled, expires, or is held. If you are offline, a key that was valid stays valid for 14 days after the last successful check. Removing the key asks the provider to release that activation, and also deletes the local copy.</p>
+      <p>Opening a checkout link is a normal page you choose to open. Holdfast does not attach your tabs to it.</p>
+
+      <h2>Permissions</h2>
+      <ul>
+        <li><strong>Tabs and tab groups</strong> — read open windows so a save can be made, and reopen them later, including group name and color.</li>
+        <li><strong>Storage and unlimited storage</strong> — keep the library on this device, including large ones.</li>
+        <li><strong>Alarms</strong> — take snapshots, recheck a license about once a week, and, if you turn it on, write a backup file on a schedule.</li>
+        <li><strong>Downloads</strong> — write that backup into your downloads folder.</li>
+        <li><strong>License host, only if you allow it</strong> — contact <code>live.dodopayments.com</code> when you activate or recheck a key.</li>
+      </ul>
+
+      <h2>What Holdfast does not do</h2>
+      <p>It does not run remote code, inject scripts into pages, read incognito windows, sell data, or include advertising. It does not close tabs when you save.</p>
+
+      <h2>Contact</h2>
+      <p>Email <a href="mailto:liora-studio@mail.grokbot.com">liora-studio@mail.grokbot.com</a>.</p>
+    </main>
+  </body>
+</html>
